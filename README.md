@@ -16,6 +16,6 @@ You may be wondering, 'what is AWS'? Amazon Web Services (AWS) is the leading Cl
 
 AWS offers a Free Tier for newly registered account users. This enables users to try out some AWS services free of charge within certain usage limits. For this project, we will utilize the [Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/overview) service, which is covered by the Free Tier!
 
-Let's get started!
+**Let's get started!**
 
 Begin by registering and setting up an [Azure account](https://azure.microsoft.com/en-us/features/azure-portal/) and following the directions on the screen. Once you have created your AWS account, navigate to the login page and type in your credentials.
