@@ -1,20 +1,20 @@
 # web-stack-implementation
 
-Hello and welcome to the Web Stack Implementation project!
+Howdy ya'll and welcome to my first Web Stack Implementation project!
 
-What is a Web Stack? It is is a group of software components, used to implement or set up various applications (for example, a website). The "stack" refers to the specific layered components (e.g. OS system, webserver, script interpreter, and database) which are built on top of each other. One of the most popular web stacks include LAMP, which stands for Linux, Apache, MySQL, and PHP. The LAMP stack will be used for this project!
+What is a Web Stack? It is is a group of software components, used to implement or set up various applications (for example, a website). The "stack" refers to the specific layered components (e.g. OS system, webserver, script interpreter, and database) which are built on top of each other. One of the most popular web stacks include LAMP, which stands for Linux, Apache, MySQL, and PHP or Python or Perl. The LAMP stack will be used for this project!
 
 # LINUX
 
 ## Setting up your virtual environment
 
-Linux is an operating system that manages the underlying hardware on your PC. It is an open-source software that is used worldwide. It is flexible and easy to configure.
+Linux is an operating system (OS) just like Windows, iOS, and Android. It is the best known and most used open source operating system in the world. It is flexible and easy to configure.
 
-In order to complete this project, it is necessary to set up a virtual environment. In order to achieve this, first, create a free [Azure account](https://azure.microsoft.com/en-us/features/azure-portal/) and then create a virtual machine using the Ubuntu Server OS. More details to come shortly!
+In order to complete this project, it is necessary to set up a virtual environment. In order to achieve this, first, create a free [Azure account](https://azure.microsoft.com/en-us/features/azure-portal/) and then create a virtual machine (VM) using the Ubuntu Server OS. More details in the following section!
 
-You may be wondering, 'what is AWS'? Amazon Web Services (AWS) is the leading Cloud Service Provider in the world. AWS offers a wide variety of databases and services for different types of applications. This allows users to choose the right tool for the job while receiving the best cost and performance.
+You may be wondering, 'what is Azure'? Azures is a cloud service provided by Microsoft. One the leading Cloud Service Providers in the world. Azure offers a wide variety of databases and services for different types of applications. This allows users to choose the right tool for the job while receiving the best cost and performance.
 
-AWS offers a Free Tier for newly registered account users. This enables users to try out some AWS services free of charge within certain usage limits. For this project, we will utilize the [Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/overview) service, which is covered by the Free Tier!
+Azure offers a Free Trial for newly registered account users. This enables users to try out some Azure services free of charge over certain period. For this project, we will utilize the [Azure VM](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/overview) service, which is covered by the Free Trial version!
 
 **Let's get started!**
 
