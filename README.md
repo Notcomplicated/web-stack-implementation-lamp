@@ -31,3 +31,78 @@ This will take me to the next page to create a new VM. Here, I will click create
 
 ![](./images/image3.png)
 
+This will take me to the next page where I will need to fill out informations pertaining to the VM I intend to create. 
+For the subscription page I will leave it as the default Azure subsription. 
+For resource group I will create a new one and name it webstackimplementationproject1
+I will name my VM project1VM
+For region, I will choose the closest region to me which in this case will be US west
+I chose Ubuntu Server 20.04 LTS since that is what we plan on running for this project.
+I will leave the size as the defualt and SSH public key.
+
+
+![](./images/image4.png)
+
+I will leave the username as the defualt, in this case which azureuser
+I will choose Generate new key pair for the SSH public key source
+My key pair name will be filled as project1VM_key
+Select Allow selected ports for the public inbound ports
+Make sure select inbound ports is SSH 22.
+
+![](./images/image5.png)
+
+Now clicking next will take me the to the Disks page. Since I will not be making any changes in this esction, I will leave all the options to the default.
+
+![](./images/diskspageimage.png)
+
+
+Now I will click next which will take me to the networking page. Again I will not be making any changes here, therefore all selections will be left as the defualt. 
+
+
+![](./images/networkingpageimage1.png)
+
+![](./images/networkingpageimage2.png)
+
+
+Next we move the management page but here also I will leave all the defaults selected. 
+
+![](./images/managementpageimage1.png)
+
+![](./images/managementpageimage2.png)
+
+
+Because I have no need to make any changes in the Adanced and Tags sections, I will proceed to click the review and create button.  This will take me the review + create page after it has gone through validation and passed. On here we see the products details of the VM we intend to create. Also on this page is the Terms and all the choices selected to create the VM.
+
+
+![](./images/reviewcreatepageimage1.png)
+
+![](./images/reviewcreatepageimage2.png)
+
+![](./images/reviewcreatepageimage3.png)
+
+![](./images/reviewcreatepageimage4.png)
+
+
+
+After reviewing and making sure everything is how you want it, You will  proceed to click the create button which will begin the proviosioning of the VM.  
+Before the VM completes deploying, a generate new key pair window will pop up which you will select Generate and create new key pair. 
+
+
+![](./images/generatenewkeypairimage.png)
+
+
+A different window will pop asking us to save the generated new key in a .pem file. You will click ok the save the newly generated key pair for use later in this project. 
+
+
+![](./images/keypemimage.png)
+
+
+Finally, you will see a notification telling you the deployment of your VM is complete. 
+Voila! alas you have successfully deployed your first VM in the Azure portal. Now you can view your newly created Azure VM by clicking "Go to resources at the bottom-left of your screen.
+
+
+![](./images/deploymentcompleteimage.png) 
+
+
+
+
+
