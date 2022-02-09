@@ -21,3 +21,13 @@ Azure offers a Free Trial for newly registered account users. This enables users
 Begin by registering and setting up an [Azure account](https://azure.microsoft.com/en-us/features/azure-portal/) and following the directions on the screen. Once you have created your AWS account, navigate to the login page and type in your credentials.
 
 ![](./images/image1.png)
+
+Once you've signed into the Azure portal, we would need to creat and provision a new VM. There are a few ways to go about it. you can use the create a resource (plus sign) or, finding the Virtual using Quick search or clicking home and finding the virtual machine blade. 
+
+![](./images/image2.png)
+In this instance I will click Virtual machines directly from the Azure services page. 
+
+This will take me to the next page to create a new VM. Here, I will click create and select Virtual machine from the dropdown options.
+
+![](./images/image3.png)
+
