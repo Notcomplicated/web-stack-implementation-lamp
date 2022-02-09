@@ -19,3 +19,5 @@ AWS offers a Free Tier for newly registered account users. This enables users to
 **Let's get started!**
 
 Begin by registering and setting up an [Azure account](https://azure.microsoft.com/en-us/features/azure-portal/) and following the directions on the screen. Once you have created your AWS account, navigate to the login page and type in your credentials.
+
+![](./images/image1.png)
