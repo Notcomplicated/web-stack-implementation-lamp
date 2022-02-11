@@ -106,7 +106,7 @@ Voila!! alas you have successfully deployed your first VM in the Azure portal. N
 
 
 
-# Connecting to your EC2 from your local PC
+# Connecting to your VM from your local PC
 
 **PLEASE NOTE** - Anchor tags < > will be used to indicate contents what must be replaced with your unique values. For example, if you have a file named "**keypair123.pem**" you must enter this information within the corresponding anchor tag: < **private-key-name**>
 
