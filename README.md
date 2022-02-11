@@ -179,6 +179,16 @@ Under the service, choose HTTP in the dropdown menu and the click add at the bot
 
 
 
+Now let's verify whether or not we can receive traffic. On the Terminal, use the command to send a request the Apache HTTP Server on port 80.
+
+$ curl http://localhost:80
+
+You should see something like this:
+
+
+![](./images/portaccessimage.png)
+
+
 
 
 
