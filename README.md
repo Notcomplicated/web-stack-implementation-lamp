@@ -200,4 +200,16 @@ You should see the following web page. This is Apache2 Ubuntu Defualt page:
 
 
 
+# MySQL
+
+**Installing MySQL on the virtual environment**
+
+Congratulations on setting up and running your Apache web server. Next, we will install MySQL, which is an open-source relational database management system. This will allow us to store and manage data for the website.
+
+Begin by using the following command to install MySQL:
+
+$ sudo apt install mysql-server
+
+When prompted, confirm that you want to proceed with the installation by typing Y for "Yes", and then press "Enter" on your Keyboard.
+
 
