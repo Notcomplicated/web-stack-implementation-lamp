@@ -120,6 +120,47 @@ $ sudo chmod 0400 <private-key-name>.pem
 
 When prompted, type the password for your local PC and press Enter on your keyboard.
 
+Next, go back to the Azure console for a moment, and navigate to your running VM . Copy the Public IP address . 
+
+Now that you've copied the Public IP address, go back to Terminal. Connect to the EC2 VM by using the command below:
+
+$ ssh -i <private-key-name>.pem ubuntu@<Public-IP-address>
+
+Next, you will be asked if you want to continue connecting. Type Yes and press Enter on your keyboard.
+
+
+![](./images/sshimage2.png)
+
+
+Nice job! You have successfully connected to your Linux server in the Cloud environment.
+
+
+
+# APACHE
+
+**Installing Apache on the virtual environment**
+
+What is Apache? Apache is a widely-used fast, reliable, and secure web server software. A web server acts as a middleman between the website visitor browser and the server.
+
+Now we will install Apache using Ubuntu’s package manager: [‘apt’](https://guide.ubuntu-fr.org/server/apt.html) . Begin by using the $ sudo apt update command to check for any available updates.
+
+Next, run the following command to run the Apache package installation:
+
+$ sudo apt install apache2
+
+Terminal will generate a series of code. 
+
+Once completed, use the following command to verify that Apache2 is running as a servive in our OS:
+
+$ sudo systemctl status apache2
+
+If there is a green dot, then it means it's running just how you want and it should look like the image below:
+
+
+![](./images/apache2greendotimage.png)
+
+
+
 
 
 
