@@ -112,7 +112,7 @@ Voila!! alas you have successfully deployed your first VM in the Azure portal. N
 
 Now let's connect to our VM!
 
-Begin by opening Terminal. Once you have opened Terminal, use the cd command to change into the directory that your key pair is located. This is usually the ~/Downloads directory. If you are having difficulty finding it, you can use the ls command to list the contents of your current directory.
+Begin by opening Terminal. Once you have opened Terminal, use the <mark>cd</mark> command to change into the directory that your key pair is located. This is usually the ~/Downloads directory. If you are having difficulty finding it, you can use the ls command to list the contents of your current directory.
 
 Once you have located the key pair, use the command below to activate the key file (.pem). This command will also change permissions (otherwise you may get the error “Bad Permissions”):
 
