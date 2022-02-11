@@ -160,6 +160,23 @@ If there is a green dot, then it means it's running just how you want and it sho
 ![](./images/apache2greendotimage.png)
 
 
+# Modifying The Firewall
+
+In order to receive traffic to our Web Server, it is imperative to open TCP port 80. This is the default port that web browsers utilize in order to access web pages on the Internet.
+
+When we created the VM on the Azure console,the TCP port 22 was opened by default. This allowed us to access the VM via SSH in Terminal. However, we must add a rule to the security groups of our VM configuration, in order to allow inbound connections through port 80.
+
+Begin by navigating to the networking tab for the newly created VM. Click on "Add inbound port rule to tab to your right and edit the inbound port rule for port 80 .
+
+
+![](./images/addinboundportruleimage.png)
+
+
+Under the service, choose HTTP in the dropdown menu and the click add at the bottom left. 
+
+
+![](./images/port80image.png)
+
 
 
 
