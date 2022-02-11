@@ -218,4 +218,56 @@ Once the installation is complete, it is best practice to run a security script 
 
    $ sudo mysql_secure_installation
 
-   
+
+You will be asked to validate password component. Type Y for "Yes".
+
+Next, you must choose the level of your password validation. There are three levels of password validation policy:
+
+Please choose either 0 = LOW, 1 = MEDIUM or 2 = STRONG
+
+**Please Note:**
+
+LOW --- Length >= 8
+
+MEDIUM --- Length >= 8, numeric, mixed case, and special characters
+
+STRONG --- Length >= 8, numeric, mixed case, special characters and dictionary file
+
+![](./images/securemysqlimage1.png)
+
+
+Once you are satisfied with your password, enter it then type Y for “Yes” when asked if you want to continue with the password provided.
+
+For the rest of the questions, type Y for "Yes" and press "Enter" on your keyboard at each prompt.
+
+These security measures will remove anonymous users and the test database, disable remote root logins, and then reload these new rules so that the changes will be reflected on the MySQL database.
+
+Your Terminal should look something like this:
+
+![](./images/securemysqlimage2.png)
+
+![](./images/securemysqlimage3.png.png)
+
+
+Next, you can check whether you can log in to the MySQL console by typing the following command. This command allows you to connect to the MySQL server as the administrative user (root user), which is implied by the use of 'sudo' part of the command:
+
+   $ sudo mysql
+
+This will connect to the MySQL server as the administrative database user root, which is inferred by the use of sudo when running this command. You should see the following output:
+
+![](./images/mysqlicheckmage.png)
+
+
+To exit the MySQL console, type the following:
+
+  mysql> exit
+
+![](./images/mysqlexit.png)
+
+
+
+
+
+
+
+
