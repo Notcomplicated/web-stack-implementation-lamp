@@ -97,10 +97,28 @@ A different window will pop asking us to save the generated new key in a .pem fi
 
 
 Finally, you will see a notification telling you the deployment of your VM is complete. 
-Voila! alas you have successfully deployed your first VM in the Azure portal. Now you can view your newly created Azure VM by clicking "Go to resources at the bottom-left of your screen.
 
 
 ![](./images/deploymentcompleteimage.png) 
+
+Voila!! alas you have successfully deployed your first VM in the Azure portal. Now you can view your newly created Azure VM by clicking "Go to resources at the bottom-left of your screen.
+
+
+
+
+# Connecting to your EC2 from your local PC
+
+**PLEASE NOTE** - Anchor tags < > will be used to indicate contents what must be replaced with your unique values. For example, if you have a file named "**keypair123.pem**" you must enter this information within the corresponding anchor tag: < **private-key-name**>
+
+Now let's connect to our VM!
+
+Begin by opening Terminal. Once you have opened Terminal, use the cd command to change into the directory that your key pair is located. This is usually the ~/Downloads directory. If you are having difficulty finding it, you can use the ls command to list the contents of your current directory.
+
+Once you have located the key pair, use the command below to activate the key file (.pem). This command will also change permissions (otherwise you may get the error “Bad Permissions”):
+
+$ sudo chmod 0400 <private-key-name>.pem
+
+When prompted, type the password for your local PC and press Enter on your keyboard.
 
 
 
